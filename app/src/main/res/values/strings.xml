@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="About_us_acercade">Acerca de....</string>
+    <string name="Autores">Autores</string>
+    <string name="BVEfrain">BVEfrain</string>
+    <string name="Kaneki">Kaneki</string>
+    <string name="EsteEsUnaAppParaReporteDeVenta">Este es una aplicacion para reporte de venta</string>
 </resources>
