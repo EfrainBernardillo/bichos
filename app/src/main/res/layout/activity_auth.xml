@@ -20,6 +20,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Contraseña"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="apellidos"></TextView>
 
         <EditText  android:id="@+id/txtPassword"
             android:inputType="textPassword"
