@@ -5,41 +5,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AuthActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="212dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Usuario"></TextView>
-        <EditText android:id="@+id/txtUser"
+
+        <EditText
+            android:id="@+id/txtUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></EditText>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Contraseña"></TextView>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="apellidos"></TextView>
 
-        <EditText  android:id="@+id/txtPassword"
-            android:inputType="textPassword"
+        <EditText
+            android:id="@+id/txtPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></EditText>
-        <Button android:id="@+id/btnLogin"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"></EditText>
+
+        <Button
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Iniciar sesion">
 
         </Button>
 
-        <Button android:id="@+id/btnCancelar"
+        <Button
+            android:id="@+id/btnCancelar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cancelar">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MichiSeLaComeEnterita">
 
         </Button>
     </LinearLayout>
