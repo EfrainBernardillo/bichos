@@ -31,5 +31,12 @@
             android:text="Iniciar sesion">
 
         </Button>
+
+        <Button android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar">
+
+        </Button>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
