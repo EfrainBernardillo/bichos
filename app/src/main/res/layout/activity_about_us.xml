@@ -25,6 +25,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="@string/EsteEsUnaAppParaReporteDeVenta">
 
         </TextView>
@@ -32,33 +33,52 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Autores"
-            android:textSize="20dp">
+            android:text="@string/Descripcion"
+            android:textSize="15dp"
+            app:lineHeight="30dp">
 
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/BVEfrain"
-            android:textSize="20dp">
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/Mision"
+            android:textSize="30dp"
+            app:lineHeight="30dp">
 
         </TextView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Kaneki"
-            android:textSize="20dp">
+            android:text="@string/MDescripcion"
+            android:textSize="15dp"
+            app:lineHeight="30dp">
 
         </TextView>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pedro aquino"
-            android:textSize="20dp">
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/Vision"
+            android:textSize="30dp"
+            app:lineHeight="30dp">
 
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/VDescripcion"
+            android:textSize="15dp"
+            app:lineHeight="30dp">
+
+        </TextView>
+
 
 
     </LinearLayout>

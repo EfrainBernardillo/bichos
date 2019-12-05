@@ -40,6 +40,10 @@
             android:layout_height="wrap_content"
             android:text="Contraseña"></TextView>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev.v2.1
         <EditText
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
@@ -50,13 +54,14 @@
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Iniciar sesion">
-
+            android:text="Iniciar sesion"
+            android:background="@color/colorPrimary">
         </Button>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:paddingTop="5dp"
             android:gravity="center"
             android:text="Create Acount"
@@ -64,6 +69,15 @@
             android:textColor="@android:color/holo_blue_dark">
 
         </TextView>
+=======
+            android:text="Create Acount"
+            android:gravity="center"
+            android:textSize="40px"
+            android:textStyle="italic"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_blue_dark"
+            ></TextView>
+>>>>>>> dev.v2.1
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

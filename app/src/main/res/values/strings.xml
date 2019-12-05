@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="About_us_acercade">Acerca de....</string>
-    <string name="Autores">Autores</string>
-    <string name="BVEfrain">BVEfrain</string>
-    <string name="Kaneki">KanekiandYUGIOH</string>
-    <string name="EsteEsUnaAppParaReporteDeVenta">Este es una aplicacion para reporte de venta</string>
+    <string name="About_us_acercade">Sobre Nosotros</string>
+    <string name="Descripcion">La empresa "DetallesVip", se dedica a la venta de productos de peluches y globos, brinda una buena atención a los clientes y ofrecen los mejores productos de alta calidad, además cuenta con usuarios altamente capacitados para atender a los clientes, para desempeñar mejor su cargo. En consecuencia, la atención que realizan va a ser rápida y precisa con la regularidad del caso.La empresa DetallesVip, se dedica a la venta de productos de peluches y globos, brinda una buena atención a los clientes y ofrecenlos mejores productos de alta calidad, además cuenta con usuarios altamente capacitados para atender a los clientes, para desempeñar mejor su cargo. En consecuencia, la atención que realizan va a ser rápida y precisacon la regularidad del caso.</string>
+    <string name="Mision">Misión</string>
+    <string name="MDescripcion">Somos una empresa dedicada a la venta de peluches quienes
+expresan sentimientos de afecto, ternura, amor y amistad; en donde
+nos comprometemos en lograr la satisfacción del cliente.</string>
+    <string name="Vision">Visión</string>
+    <string name="VDescripcion">Consolidarnos como la primera empresa en venta de peluches expresivos, siendo reconocidos por la población de la región por la calidad, atención de nuestros servicios y manteniendo siempre las ventajas competitivas en el sector de los productos.</string>
+    <string name="EsteEsUnaAppParaReporteDeVenta">Este es una aplicacion para reporte de venta de las ventas que se realiza en la empresa "DetallesVip".</string>
 </resources>
