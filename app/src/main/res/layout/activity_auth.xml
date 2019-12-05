@@ -28,10 +28,6 @@
             android:layout_height="wrap_content"
             android:text="Contraseña"></TextView>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="apellidos"></TextView>
 
         <EditText
             android:id="@+id/txtPassword"
@@ -44,22 +40,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Iniciar sesion">
-
         </Button>
 
-        <Button
-            android:id="@+id/btnCancelar"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cancelar">
+            android:text="Create Acount"
+            android:textStyle="italic"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_red_dark"
+            ></TextView>
 
-        </Button>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="OtroBoton">
-
-        </Button>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
