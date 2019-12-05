@@ -2,8 +2,10 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@android:color/holo_blue_light" />
     <item>
-        <bitmap android:src="@drawable/frutapplogo"
+        <bitmap android:src="@drawable/usuario"
             android:gravity="center" />
     </item>
 
 </layer-list>
+
+

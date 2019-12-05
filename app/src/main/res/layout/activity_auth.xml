@@ -8,10 +8,22 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="212dp">
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:layout_width="119dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="center"
+            android:src="@drawable/usuario"
+            android:visibility="visible"
+            android:background="@drawable/round_corner"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -28,11 +40,6 @@
             android:layout_height="wrap_content"
             android:text="Contraseña"></TextView>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="apellidos"></TextView>
-
         <EditText
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
@@ -44,21 +51,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Iniciar sesion">
-
-        </Button>
-
-        <Button
-            android:id="@+id/btnCancelar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cancelar">
-
-        </Button>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="OtroBoton">
 
         </Button>
     </LinearLayout>
