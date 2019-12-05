@@ -39,16 +39,19 @@
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Iniciar sesion">
+            android:text="Iniciar sesion"
+            android:background="@color/colorPrimary">
         </Button>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Create Acount"
+            android:gravity="center"
+            android:textSize="40px"
             android:textStyle="italic"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@android:color/holo_red_dark"
+            android:textColor="@android:color/holo_blue_dark"
             ></TextView>
 
     </LinearLayout>
