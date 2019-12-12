@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.example.myapplication.mobil.Users;
 
@@ -16,6 +17,7 @@ public class AuthActivity extends AppCompatActivity {
     Button btnLogin;
     EditText txtUser;
     EditText txtPassword;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
