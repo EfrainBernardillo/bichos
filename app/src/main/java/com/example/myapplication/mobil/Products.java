@@ -17,8 +17,28 @@ public class Products {
 
     public  static ArrayList<Products> getData(){
         ArrayList<Products> products = new ArrayList<>();
-        products.add(new Products( "Galletitas",
-                "Galletas deliciosas"));
+        products.add(new Products( "Peluche Animales",
+                "Color Blanco y Negro"));
+
+        products.add(new Products( "Peluche Heroes",
+                "25 modelos"));
+
+        products.add(new Products( "Almohadas",
+                "25 modelos"));
+        products.add(new Products( "Peluche Corazones",
+                "25 modelos"));
+
+        products.add(new Products( "Peluche Equipos",
+                "25 modelos"));
+
+        products.add(new Products( "Peluche Coreanos",
+                "25 modelos"));
+
+        products.add(new Products( "Peluche Perro",
+                "25 modelos"));
+        products.add(new Products( "Peluche Gato",
+                "25 modelos"));
+
         return products;
     }
 }

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/NUEVO"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="217dp"
+                android:layout_height="match_parent"
+                android:background="@mipmap/ic_launcher_foreground"></ImageView>
+
+            <ImageView
+                android:layout_width="77dp"
+                android:layout_height="68dp"
+                android:background="@android:drawable/alert_dark_frame"></ImageView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/background"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorPrimary"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tienda De Peluches En Huancayo"
+            android:textColor="@color/colorPrimary"
+            android:textSize="60px"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorPrimary"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="todo lo que necesitas en un solo  lugar a un bajo precio, ya no necesitas salir de casa para comprar ese detalle para tu ser amado"
+            android:textColor="@color/colorPrimary"
+            android:textSize="60px"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nuestras Promociones"
+            android:textColor="@color/colorPrimary"
+            android:textSize="60px"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frutapplogo"></ImageView>
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frutapplogo"></ImageView>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frutapplogo"></ImageView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
